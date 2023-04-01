@@ -21,8 +21,6 @@ form.addEventListener("submit", (e) => {
       amountPLN.innerHTML = "No actual data available for today";
     })
     .finally(() => {
-      setTimeout(() => {
-        loader.style.display = "none";
-      }, 1.5 * 1000);
+      loader.style.display = "none";
     });
 });
